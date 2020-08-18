@@ -283,6 +283,7 @@ defaults:
       read_time: true
       comments: # true
       share: true
+      show_date: true
       related: true
       classes:
         - wide
