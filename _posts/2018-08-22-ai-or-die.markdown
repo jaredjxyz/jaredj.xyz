@@ -7,6 +7,9 @@ tags:
 - artificial-intelligence
 - machine-learning
 - projects
+header:
+  teaser: https://upload.wikimedia.org/wikipedia/commons/6/64/The_Puppy.jpg
+  image: https://upload.wikimedia.org/wikipedia/commons/6/64/The_Puppy.jpg
 ---
 
 In May of 2017, I founded one of the first autonomous robot fighting competitions. It grew to around 10 people at its peak. This is a medium-level overview of the project.
