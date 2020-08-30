@@ -1,12 +1,4 @@
----
-layout: single
-title: 'Extended Kalman Filter: Udacity SDC Nanodegree Term 2 Project 1'
-date: '2017-04-18 03:23:00'
-tags:
-- udacity
-- sdc
----
-
+# Extended Kalman Filter: Udacity SDC Nanodegree Term 2 Project 1
 ## [Github](https://github.com/jaredjxyz/CarND-Extended-Kalman-Filter)
 
 ## Introduction
@@ -21,7 +13,7 @@ Take, for example, the situation where the sensor is getting data every second. 
 
 ## Extended Kalman Filter
 
-The normal Kalman filter has a problem where it predicts things linearly. This means that, for example, at time t0 an object is 1 meter away, at t1 the object is 4 meters away, and t2 the object is 9 meters away, that it will have a hard time predicting that the next object will be 16 meters away. Extended Kalman Filters were created to help alleviate that. With an extended kalman filter, you can use a nonlinear function to model the behavior you expect. 
+The normal Kalman filter has a problem where it predicts things linearly. This means that, for example, at time t0 an object is 1 meter away, at t1 the object is 4 meters away, and t2 the object is 9 meters away, that it will have a hard time predicting that the next object will be 16 meters away. Extended Kalman Filters were created to help alleviate that. With an extended kalman filter, you can use a nonlinear function to model the behavior you expect.
 
 Unfortunately, thanks to the way Kalman filters use variances, it's not as easy as sticking the function in and being done with it. You have to use the jacobian matrix for the function, which is a matrix with every possible partial derivative. This will approximate the function as a linear function and is often a good enough approximation to keep estimate good.
 

@@ -1,8 +1,4 @@
----
-layout: single
-title: 'Finding Lane Lines: Udacity SDC Nanodegree Term 1 Project 1'
-date: '2016-12-23 05:15:00'
----
+# Finding Lane Lines: Udacity SDC Nanodegree Term 1 Project 1
 
 ## [Github](https://github.com/jaredjxyz/CarND-Finding-Lane-Lines)
 

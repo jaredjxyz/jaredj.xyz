@@ -1,12 +1,12 @@
 ---
 layout: single
-title: 'Path Planning: Udacity SDC Nanodegree Term 3 Project 1'
+title: ''
 date: '2017-08-08 04:13:00'
 tags:
 - udacity
 - sdc
 ---
-
+# Path Planning: Udacity SDC Nanodegree Term 3 Project 1
 ## [Github](https://github.com/jaredjxyz/CarND-Path-Planning-Project)
 
 ## Introduction

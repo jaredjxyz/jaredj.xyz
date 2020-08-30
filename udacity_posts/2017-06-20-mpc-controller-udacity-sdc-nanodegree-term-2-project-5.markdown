@@ -1,12 +1,4 @@
----
-layout: single
-title: 'MPC Controller: Udacity SDC Nanodegree Term 2 Project 5'
-date: '2017-06-20 03:37:00'
-tags:
-- udacity
-- sdc
----
-
+# MPC Controller: Udacity SDC Nanodegree Term 2 Project 5
 ## [Github](https://github.com/jaredjxyz/CarND-MPC-Project)
 
 ## Introduction

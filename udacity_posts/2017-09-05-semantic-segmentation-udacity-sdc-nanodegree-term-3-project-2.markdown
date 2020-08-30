@@ -1,12 +1,4 @@
----
-layout: single
-title: 'Semantic Segmentation: Udacity SDC Nanodegree Term 3 Project 2'
-date: '2017-09-05 05:15:00'
-tags:
-- udacity
-- sdc
----
-
+# Semantic Segmentation: Udacity SDC Nanodegree Term 3 Project 2
 ## [Github](https://github.com/jaredjxyz/CarND-Semantic-Segmentation)
 
 ## Introduction

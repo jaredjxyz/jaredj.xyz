@@ -1,11 +1,4 @@
----
-layout: single
-title: 'Traffic Sign Classifier: Udacity SDC Nanodegree Term 1 Project 2'
-date: '2017-01-24 05:26:00'
-tags:
-- udacity
-- sdc
----
+# Traffic Sign Classifier: Udacity SDC Nanodegree Term 1 Project 2
 
 ## [Github](https://github.com/jaredjxyz/CarND-Traffic-Sign-Classifier)
 ## Introduction
@@ -14,7 +7,7 @@ This project was an introduction to CNNs in tensorflow. Udacity gives the studen
 
 ## My solution
 
-Here's what my final CNN looked like. It was trained on the dataset provied my Udacity 
+Here's what my final CNN looked like. It was trained on the dataset provied my Udacity
 
 Input: 32x32x3 (a 32x32 pixel color image) Layer1: 2D convolution with an output of 28x28x6, and a pooling layer of kernel size 2x2 with a stride of 2 for an output of 14x14x6
 Layer2: 2D convolution with output size 10x10x16, and a pooling layer with kernel size 2x2 for an output of 5x5x16

@@ -1,12 +1,4 @@
----
-layout: single
-title: 'Unscented Kalman Filter: Udacity SDC Nanodegree Term 2 Project 2'
-date: '2017-05-02 03:13:00'
-tags:
-- udacity
-- sdc
----
-
+# Unscented Kalman Filter: Udacity SDC Nanodegree Term 2 Project 2
 ## [Github](https://github.com/jaredjxyz/CarND-Unscented-Kalman-Filter)
 
 ## Introduction

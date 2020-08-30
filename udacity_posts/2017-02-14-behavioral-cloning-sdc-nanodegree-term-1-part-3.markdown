@@ -1,12 +1,4 @@
----
-layout: single
-title: 'Behavioral Cloning: Udacity SDC Nanodegree Term 1 Project 3'
-date: '2017-02-14 03:48:00'
-tags:
-- udacity
-- sdc
----
-
+# Behavioral Cloning: Udacity SDC Nanodegree Term 1 Project 3
 ## [Github](https://github.com/jaredjxyz/CarND-Behavioral-Cloning)
 
 ## Introduction

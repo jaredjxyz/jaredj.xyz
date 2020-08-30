@@ -1,12 +1,4 @@
----
-layout: single
-title: 'Advanced Lane Lines: Udacity SDC Nanodegree Term 1 Project 4'
-date: '2017-02-28 05:09:00'
-tags:
-- udacity
-- sdc
----
-
+# Advanced Lane Lines: Udacity SDC Nanodegree Term 1 Project 4
 ## [Github](https://github.com/jaredjxyz/CarND-Advanced-Lane_Lines)
 
 ## Introduction
@@ -17,7 +9,7 @@ In project 1 of term 1, we made a pipeline that can detect lane lines, but only 
 ## The Pipeline
 Here I will go through each of the methods we learned in this lesson and give an example of how we get from start to finish
 
-We will start with our original image: 
+We will start with our original image:
 
 ![test2_original]({{ '/assets/images/2018/01/test2_original.jpg' | relative_url }})
 
@@ -58,4 +50,3 @@ Now I do that for every frame of the video. Here's what it looks like:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6B6QawlZBgI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LyacTp2JgEk" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-

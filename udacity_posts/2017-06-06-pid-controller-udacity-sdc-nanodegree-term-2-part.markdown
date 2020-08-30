@@ -1,11 +1,4 @@
----
-layout: single
-title: 'PID Controller: Udacity SDC Nanodegree Term 2 Part 4'
-date: '2017-06-06 05:53:00'
-tags:
-- udacity
-- sdc
----
+# PID Controller: Udacity SDC Nanodegree Term 2 Part 4
 
 ## [Github](https://github.com/jaredjxyz/CarND-PID-Control)
 
@@ -19,7 +12,7 @@ In this project, we used PID to make a vehicle turn toward the center line on a 
 P: Position. This is how far away the car is from the center line. We want to minimize this.
 I: Integral. This is essentially how much time has been spent on one side of the track (with spending time far away from the track counting more than time close to the center). This will compensate in case the car has a left-turn or right-turn bias.
 D: Derivative. This is the difference between the angle of the car and the angle of the line. We want the car to be going at the same angle as the line, so we try to minimize the difference.
-The biggest advantage of PID is that it's easy to implement and works well in many scenarios. The biggest disadvantage is that it's reactive (as opposed to proactive), meaning that the car isn't planning ahead. This makes it hard to make a PID controller that will handle a car going excessive speeds. In my case I couldn't get the car going consistently over 120mph with a PID controller. For this project, Udacity provided a simulator that would give you the cross-track error (the distance from the center line) and I implemented the PID algorithm to make the car go around the track. 
+The biggest advantage of PID is that it's easy to implement and works well in many scenarios. The biggest disadvantage is that it's reactive (as opposed to proactive), meaning that the car isn't planning ahead. This makes it hard to make a PID controller that will handle a car going excessive speeds. In my case I couldn't get the car going consistently over 120mph with a PID controller. For this project, Udacity provided a simulator that would give you the cross-track error (the distance from the center line) and I implemented the PID algorithm to make the car go around the track.
 
 ## Video
 

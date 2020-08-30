@@ -1,12 +1,4 @@
----
-layout: single
-title: 'Kidnapped Vehicle (Particle Filter): Udacity SDC Nanodegree Term 2 Project
-  3'
-date: '2017-05-23 04:49:00'
-tags:
-- udacity
-- sdc
----
+# Kidnapped Vehicle (Particle Filter): Udacity SDC Nanodegree Term 2 Project 3
 
 ## [Github](https://github.com/jaredjxyz/CarND-Kidnapped-Vehicle-Project)
 

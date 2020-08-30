@@ -1,11 +1,4 @@
----
-layout: single
-title: 'Vehicle Detection: Udacity SDC Nanodegree Term 1 Project 5'
-date: '2017-03-14 05:05:00'
-tags:
-- udacity
-- sdc
----
+# Vehicle Detection: Udacity SDC Nanodegree Term 1 Project 5
 
 ## [Github](https://github.com/jaredjxyz/CarND-Extended-Kalman-Filter)
 
@@ -39,7 +32,7 @@ The idea is simple: We have a classifier that can figure out whether an image is
 
 ### Hotboxes
 
-After we've run the sliding window algorithm, we now have a bunch of boxes that probably have a car in them. We now need to take those boxes and figure out which ones are accurate. We can do that by finding the areas where lots of boxes intersect. We call this method 'hotboxes'. 
+After we've run the sliding window algorithm, we now have a bunch of boxes that probably have a car in them. We now need to take those boxes and figure out which ones are accurate. We can do that by finding the areas where lots of boxes intersect. We call this method 'hotboxes'.
 
 ![hotbox_examples-1]({{ '/assets/images/2018/01/hotbox_examples-1.jpg' | relative_url }})
 
