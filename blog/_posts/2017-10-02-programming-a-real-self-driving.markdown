@@ -8,8 +8,6 @@ tags:
 - sdc
 ---
 
-# Introduction
-
 At the end of my senior year of college while taking a full course load, I also opted to be in the very first group of people taking the Udacity Self-driving Car Nanodegree.
 
 At the time I wrote a post about each of the parts of the nanodegree. I have now combined all of them into one post so it doesn't take up so much room in the posts section on my website.
