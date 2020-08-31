@@ -8,6 +8,7 @@ tags:
 - machine-learning
 - deep-learning
 - projects
+excerpt: "I got first place in a class project where two pac-mans went head to head using reinforcement learning with a deep neural network. Here's how I did it."
 ---
 
 ## [Github](https://github.com/jaredjxyz/Pacman-Tournament-Agent)
@@ -26,17 +27,17 @@ Each team gets 2 agents. Each team gets half of the map as their 'home'. An agen
 
 I had just learned how to implement Q learning in this class, and had just taught myself how to use Tensorflow, and had heard about Google using something called "Deep Q learning" to make their AlphaGo agent. After trying a basic q-learning approach and finding that it couldn't handle the edge cases that I needed it to, I decided to look up what exactly deep Q learning is and see if I could implement it. I ended up getting a 3-layer Q-learning network working and training relatively consistently on the program. Here's how it works.
 
-input: 4x1 
-layer1: tanh(matmul(input, w1) + b1) --> 4x1 
-layer2: tanh(matmul(layer1, w2) + b2) --> 4x1 
-layer3: relu(matmul(layer2, w2) + b3) --> 1x1 
+input: 4x1
+layer1: tanh(matmul(input, w1) + b1) --> 4x1
+layer2: tanh(matmul(layer1, w2) + b2) --> 4x1
+layer3: relu(matmul(layer2, w2) + b3) --> 1x1
 loss: (layer3 - (reward + discount*V(state')) ^2, where V is the maximum Q value of all possible actions from state'
 
 The features are as follows:
-1. \# of food on opponent's side 
-2. \# of food on our side 
-3. A* distance from nearest edible thing (pacman, scared ghost, or pacdot) 
-4. Distance from nearest ghost 
+1. \# of food on opponent's side
+2. \# of food on our side
+3. A* distance from nearest edible thing (pacman, scared ghost, or pacdot)
+4. Distance from nearest ghost
 
 On each move, I ran one iteration of gradient descent. This worked really well for training against itself initially, but I found that it started to freeze up against other agents. I decided to make the baseline agent that was given to us a little dumber and slowly make it smarter so that my agent had some time to figure things out and train before it was defeated by the baseline agent. After being trained on multiple agents, including against a friend's agent that he let me train against, this ended up handling new situations relatively well. If I had more time, I would love to add new features and see how they affect the agent's behavior.
 
