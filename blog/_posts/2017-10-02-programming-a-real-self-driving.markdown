@@ -15,7 +15,7 @@ At the end of my senior year of college while taking a full course load, I also 
 At the time I wrote a post about each of the parts of the nanodegree. I have now combined all of them into one post so it doesn't take up so much room in the posts section on my website.
 
 # Capstone project: Programming a real self-driving car!
-## [Github](https://github.com/CarND-Emoji-Team/CarND-Capstone)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Capstone)
 
 ## Introduction
 
@@ -45,7 +45,7 @@ The interface to the car gives goal speed and turning values and the drive-by-wi
 I was lucky enough to be one of the few to see the car run my team's code in person. Here's a video of it attempting one loop around.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PX6_7RRYyM4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe># Semantic Segmentation: Udacity SDC Nanodegree Term 3 Project 2
-## [Github](https://github.com/jaredjxyz/CarND-Semantic-Segmentation)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Semantic-Segmentation)
 
 ## Introduction
 
@@ -57,12 +57,8 @@ In a normal convolutional neural network, we usually have two parts. The first p
 
 In a fully convolutional network, we don't have that second part. Instead, after the convolutional part is done, we then reverse the convolutions in order to bring the image back to its original size. This allows us to label each pixel and to keep the information about where in an image each part was.
 
-## Examples
-
-You can see examples from the final output of my project [here](https://github.com/jaredjxyz/CarND-Semantic-Segmentation/tree/master/runs/1504486156.0100474)
-
 # Path Planning: Udacity SDC Nanodegree Term 3 Project 1
-## [Github](https://github.com/jaredjxyz/CarND-Path-Planning-Project)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Path-Planning-Project)
 
 ## Introduction
 
@@ -92,8 +88,9 @@ I must applaud this great work and I will say I really like the structure of the
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y3wUAxTGsvk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 # MPC Controller: Udacity SDC Nanodegree Term 2 Project 5
-## [Github](https://github.com/jaredjxyz/CarND-MPC-Project)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-MPC-Project)
 
 ## Introduction
 
@@ -134,9 +131,10 @@ The program has a simulated 100ms latency, to account for the fact that in the r
 ## Video
 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/B1sXaZ1Z6js" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 # PID Controller: Udacity SDC Nanodegree Term 2 Part 4
 
-## [Github](https://github.com/jaredjxyz/CarND-PID-Control)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-PID-Control)
 
 ## Introduction
 
@@ -153,9 +151,10 @@ The biggest advantage of PID is that it's easy to implement and works well in ma
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dgIeP3ypdfE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
 # Kidnapped Vehicle (Particle Filter): Udacity SDC Nanodegree Term 2 Project 3
 
-## [Github](https://github.com/jaredjxyz/CarND-Kidnapped-Vehicle-Project)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Kidnapped-Vehicle-Project)
 
 ## Introduction
 
@@ -182,12 +181,13 @@ This will eventually give you an estimate for the robot's location. This can be 
 ## No Video This Time
 
 Unfortunately because I was in the first cohort, Udacity did not have a visualizer ready for this project.
+
 # Unscented Kalman Filter: Udacity SDC Nanodegree Term 2 Project 2
-## [Github](https://github.com/jaredjxyz/CarND-Unscented-Kalman-Filter)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Unscented-Kalman-Filter)
 
 ## Introduction
 
-We learned about Kalman Filters and Extended Kalman Filters in the [last lesson](http://ghost.jaredj.xyz/extended-kalman-filter-udacity-sdc-nanodegree-term-2-project-1/). Extended Kalman Filters have the problem where they are still linear - the jacobian is essentially a linear approximation. Motion, however, is rarely linear. An Unscented Kalman Filter attempts to fix that.
+Extended Kalman Filters have the problem where they are still linear - the jacobian is essentially a linear approximation. Motion, however, is rarely linear. An Unscented Kalman Filter attempts to fix that.
 
 ## CTRV Model
 
@@ -203,8 +203,9 @@ Instead of applying our non-linear function directly, what an Unscented Kalman F
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L8rUOcP5imE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 If you compare this one to the video in the previous lesson, you'll notice that the green triangles are much closer to the circle and less spread out than in the last lesson.
+
 # Extended Kalman Filter: Udacity SDC Nanodegree Term 2 Project 1
-## [Github](https://github.com/jaredjxyz/CarND-Extended-Kalman-Filter)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Extended-Kalman-Filter)
 
 ## Introduction
 
@@ -233,9 +234,10 @@ For this project, we emulated the data from a lidar and a radar. There are some 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mJoeym6BnqU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 Here's a video of the kalman filter working. The red dots are lidar measurements, blue are radar measurements, and green is where the EKF thinks we are.
+
 # Vehicle Detection: Udacity SDC Nanodegree Term 1 Project 5
 
-## [Github](https://github.com/jaredjxyz/CarND-Extended-Kalman-Filter)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Vehicle-Detection)
 
 ## Introduction
 
@@ -274,8 +276,9 @@ After we've run the sliding window algorithm, we now have a bunch of boxes that 
 ## Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mPWucgykBWA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
 # Advanced Lane Lines: Udacity SDC Nanodegree Term 1 Project 4
-## [Github](https://github.com/jaredjxyz/CarND-Advanced-Lane_Lines)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Advanced-Lane_Lines)
 
 ## Introduction
 
@@ -326,8 +329,9 @@ Now I do that for every frame of the video. Here's what it looks like:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6B6QawlZBgI" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LyacTp2JgEk" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
 # Behavioral Cloning: Udacity SDC Nanodegree Term 1 Project 3
-## [Github](https://github.com/jaredjxyz/CarND-Behavioral-Cloning)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Behavioral-Cloning)
 
 ## Introduction
 Behavioral cloning is a machine learning technique used to train an agent (whether that's simulated or a robot) to act by looking at what a human has told the robot to do in similar situations. In this project, we drove a car around a virtual environment, collected data on how I drove, then used a neural network to make the car drive the same way.
@@ -356,9 +360,10 @@ I ended up very happy with a model that could go around the track at the highest
 
 #### Final attempt
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hflPGI8BXa4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
 # Traffic Sign Classifier: Udacity SDC Nanodegree Term 1 Project 2
 
-## [Github](https://github.com/jaredjxyz/CarND-Traffic-Sign-Classifier)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Traffic-Sign-Classifier)
 ## Introduction
 This project was an introduction to CNNs in tensorflow. Udacity gives the student some suggestions on what a convolutional neural network looks like and then the student goes and implements that on their own
 
@@ -375,9 +380,10 @@ Fully connected 2: Matrix multiply with input 120 and output 84, then a relu act
 Output layer: Matrix Multiply with input 84 and output 43 (for 43 possible labels)
 
 This was trained on the dataset provided by Udacity (https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip) for an accuracy of 94.2% of the validation set
+
 # Finding Lane Lines: Udacity SDC Nanodegree Term 1 Project 1
 
-## [Github](https://github.com/jaredjxyz/CarND-Finding-Lane-Lines)
+## [Github](https://github.com/jaredjxyz/SDCNanodegree/tree/master/CarND-Finding-Lane-Lines)
 
 ## Background
 I was picked when I was a senior in college to be one of the first 500 people in the first cohort of Udacity's Self-Driving Car Nanodegree. I was told later that I was picked because I had taken many online classes before and that not many people applied to take the nanodegree while simultaneously taking college courses.
